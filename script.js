@@ -1,25 +1,28 @@
 /* My Own Solution */
 /* Navigation */
-/* 
+
 const dropdown = document.querySelectorAll('.dropdown-hover');
+const navbarWrapper = document.querySelector('.navbar-wrapper');
 
 dropdown.forEach(element => {
     element.addEventListener('mouseover', () => {
         element.classList.add('change');
+        navbarWrapper.classList.add('change');
     })
 })
 
 dropdown.forEach(element => {
     element.addEventListener('mouseout', () => {
         element.classList.remove('change');
+        navbarWrapper.classList.remove('change');
     })
-}) 
-*/
+})
+
 /* End of Navigation */
 /* End of My Own Solution */
 
 /* Professor's Solution */
-
+/* 
 const dropdownItems = document.querySelectorAll('.dropdown-hover');
 
 dropdownItems.forEach(dropdownItem => {
@@ -35,5 +38,5 @@ dropdownItems.forEach(dropdownItem => {
         document.querySelector('.navbar-wrapper').style.background = 'transparent';
     })
 })
-
+ */
 /* End of Professor's Solution */

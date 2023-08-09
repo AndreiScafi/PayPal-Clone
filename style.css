@@ -32,6 +32,11 @@ html {
     border-bottom: 0.1rem solid #aaa;
     display: flex;
     justify-content: center;
+    background: transparent;
+}
+
+.change.navbar-wrapper {
+    background: linear-gradient(to right, #066399, #2f8fdf, #066399);
 }
 
 .navbar {
@@ -95,6 +100,11 @@ html {
     flex-wrap: wrap;
     opacity: 0;
     visibility: hidden;
+}
+
+.change .nav-dropdown {
+    opacity: 1;
+    visibility: visible;
 }
 
 .nav-dropdown-item {
