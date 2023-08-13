@@ -14,6 +14,29 @@ html {
     font-size: 62.5%;
 }
 
+.logo {
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+}
+
+.p-1 {
+    font-size: 4.5rem;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+.p-2 {
+    font-size: 4.5rem;
+    color: #bbb;
+    position: absolute;
+    top: .4rem;
+    left: .5rem;
+}
+
 .blue-btn {
     width: 35rem;
     height: 5rem;
@@ -27,6 +50,12 @@ html {
 }
 
 /* End of Common Styles */
+
+/* Front Page */
+
+.front-page {
+    display: none;
+}
 
 /* Section 1 */
 
@@ -59,28 +88,7 @@ html {
     align-items: center;
 }
 
-.navbar-logo {
-    font-size: 3.5rem;
-    font-style: italic;
-    font-weight: 800;
-    color: #fff;
-    position: relative;
-}
 
-.p-1 {
-    font-size: 4.5rem;
-    margin-right: 1rem;
-    position: relative;
-    z-index: 10;
-}
-
-.p-2 {
-    font-size: 4.5rem;
-    color: #bbb;
-    position: absolute;
-    top: .4rem;
-    left: .5rem;
-}
 
 .nav-list {
     display: flex;
@@ -431,3 +439,5 @@ html {
 }
 
 /* End of Section 5 */
+
+/* End of Front Page */
